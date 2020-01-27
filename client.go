@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nerzal/gocloak/v4/pkg/jwx"
-	"github.com/dgrijalva/jwt-go"
+	"github.com/DigY-/gocloak/v4/pkg/jwx"
+	"github.com/dgrijalva/jwt-go/v4"
 	"github.com/go-resty/resty/v2"
 )
 

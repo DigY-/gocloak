@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/dgrijalva/jwt-go/v4"
 	"github.com/go-resty/resty/v2"
 	"github.com/stretchr/testify/assert"
 )

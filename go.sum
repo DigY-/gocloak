@@ -1,5 +1,8 @@
 github.com/DigY-/jwt-go v3.2.0+incompatible h1:FoNoxmSsezzzPgFyHOTfKpxd0hH9ZR8R/SWq997jC7Q=
 github.com/DigY-/jwt-go v3.2.0+incompatible/go.mod h1:vW3i1zH3bvJaKEyzPHsnHNEFRl3wijTohK01gsRIpKo=
+github.com/Nerzal/gocloak v1.0.0 h1:WllsbIu1dYvdvka1/BbY7khZBJSTjSkGwyDsHHLQmIw=
+github.com/Nerzal/gocloak/v4 v4.5.0 h1:WWnB/z0eSIMk3BNfRCVJsCTlqYXcAiLACo0b0qQsNm8=
+github.com/Nerzal/gocloak/v4 v4.5.0/go.mod h1:/7LwujSlsqBA3haXobPxOPVZMP9iQ9zlQJAbP0ZhO4I=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

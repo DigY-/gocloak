@@ -1,7 +1,7 @@
 package gocloak
 
 import (
-	"github.com/dgrijalva/jwt-go"
+	"github.com/dgrijalva/jwt-go/v4"
 	"github.com/go-resty/resty/v2"
 )
 

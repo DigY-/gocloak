@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"strings"
 
-	jwt "github.com/dgrijalva/jwt-go"
+	"github.com/dgrijalva/jwt-go/v4"
 )
 
 // DecodeAccessTokenHeader decodes the header of the accessToken
