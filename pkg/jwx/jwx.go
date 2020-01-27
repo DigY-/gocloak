@@ -75,7 +75,7 @@ func DecodeAccessToken(accessToken string, e, n *string) (*jwt.Token, *jwt.MapCl
 			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
 		}
 		return rsaPublicKey, nil
-	})
+	}, jwt.WithoutAudienceValidation())
 
 	return token2, claims, err
 }
@@ -93,7 +93,7 @@ func DecodeAccessTokenCustomClaims(accessToken string, e, n *string, customClaim
 			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
 		}
 		return rsaPublicKey, nil
-	})
+	}, jwt.WithoutAudienceValidation())
 
 	return token2, err
 }
